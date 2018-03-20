@@ -9,7 +9,6 @@
 }
 
 .text2{
-    background-color: antiquewhite;
     font-family: "Times New Roman";
     margin-right: 300px;
     margin-left: 300px;
@@ -25,7 +24,7 @@
 }
 body {
     background-color: transparent;
-    border: black 2px solid;
+    border: solid black 4px;
 }
 h1,h2{
     color: black;
@@ -36,4 +35,12 @@ h1,h2{
     margin-right: 600px;
     margin-left: 600px;
 }
-
+a:link {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+a:hover{
+    color: darkorange;
+}
